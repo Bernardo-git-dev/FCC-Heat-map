@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#chart {
+    margin: 20px auto;
+}
+
+.cell {
+    stroke: white;
+}
+
+#legend {
+    margin: 20px auto;
+}
+
+#tooltip {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+}
